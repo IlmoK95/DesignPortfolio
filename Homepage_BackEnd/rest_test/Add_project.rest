@@ -1,0 +1,20 @@
+POST http://localhost:3004/api/projects
+Content-Type: application/json
+
+{
+    "ProjectCategory":
+    ["Architecture",
+    "Scripting",
+    "Parametric"],
+    "role":"Student",
+    "name":"Nordic living wall Integration of plants on brick facade",
+    "year":"2021-2022",
+    "company":"Aalto university department of architecture",
+    "description":"In my thesis, a proposal is presented for a structural brick wall that acts as a growth medium for sedums and mosses. The wall consists of corbelled stacks of bricks that create favorable microclimates for the given plants. The locations of these corbellings are determined according to the planting scheme specified by the designer. The proposed wall is part of the facade of a building in central Helsinki.In my work, I show how to get the right amount of sunlight for the plants, and how water can pass to each plant on the wall. These challenges were studied with simulations using the Grasshopper program. Parametric tools, structural studies and findings about plants suitable for the wall were used in the thesis.Link to thesis: https://aaltodoc.aalto.fi/handle/123456789/119220",
+    "images": 
+    ["src\\images\\project_images\\Dragon's_nest\\Näyttökuva 2023-07-16 134531.png", 
+    "src\\images\\project_images\\Dragon's_nest\\Näyttökuva 2023-07-23 170153.png", 
+    "src\\images\\project_images\\Dragon's_nest\\Näyttökuva 2023-07-23 170511.png", 
+    "src\\images\\project_images\\Dragon's_nest\\Näyttökuva 2023-07-23 170755.png"],
+    "main_img": "src\\images\\main_images\\thesis_main.png"
+}
